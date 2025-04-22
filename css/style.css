@@ -81,7 +81,14 @@ p {
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
-
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('/fonts/NunitoSans-Regular.woff2') format('woff2'),
+       url('/fonts/NunitoSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 img {
   max-width: 100%;
   height: auto;
